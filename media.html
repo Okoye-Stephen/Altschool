@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+    <link rel="stylesheet" href="media.css">
+    
+</head>
+
+<body>
+
+ <nav>
+    <ul>
+      <li><a href="index.html">About Me</a></li>
+      <li><a href="media.html">Media</a></li>
+      <li><a href="table.html">AltSchool Africa's Courses & Schools</a></li>
+      <li><a href="form.html">AltSchool Africa's Application Form</a></li>
+    </ul>
+  </nav>
+
+    <h1>Media</h1>
+
+
+    <picture>
+      <source media="(min-width: 1201px)" srcset="Assets/Images/Lappy.jpg">
+      <source media="(min-width: 800px) and (max-width: 1200px)" srcset="Assets/Images/Tablet.jpg">
+      <source media="(max-width: 768px)" srcset="Assets/Images/Mobile.jpg">
+      <!-- if nothing sup -->
+      <img src="Assets/Images/Mobile.jpg" alt="About Me">
+    </picture>
+    
+
+    <p>I have  a passion for creating responsive and user-friendly websites.</p>
+
+    <h1> Click to Play</h1>
+
+    <video controls width="80%">
+        <source src="./Assets/Video/Gotti(M).mp4"  type="video/mp4">
+        <source src="./Assets/Video/Gotti(W).webm" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
+
+    <h1>Click to listen</h1>
+    <audio controls>
+        <source src="./Assets/Audio/gay-echo.mp3" type="audio/mp3"/>
+        <source src="./Assets/Audio/gay-echo.ogg" type="audio/ogg"/>
+        Your browser does not support the audio tag
+    </audio>
+
+    <footer id="footer">
+        <p>&copy; 2024 GORIMAPA</p>
+      </footer>
+
+
+</body>
+</html>
